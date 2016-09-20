@@ -1,0 +1,3 @@
+%{"simple_agent": {:hex, :simple_agent, "0.0.7", "5ca589f432467cb682103159588a8e69dda029ffc5163cd6c872a023004ead14", [:mix], []},
+  "sweet_xml": {:hex, :sweet_xml, "0.6.1", "a56f235171f35a32807ce44798dedc748ce249fca574674fecd29c1321cab0de", [:mix], []},
+  "xlsx_parser": {:hex, :xlsx_parser, "0.0.7", "d9bcb0bc230c5f800256ad226000db3e00fbc5cab6cc329834cea0f278494397", [:mix], [{:simple_agent, "~> 0.0.7", [hex: :simple_agent, optional: false]}, {:sweet_xml, "~> 0.6.1", [hex: :sweet_xml, optional: false]}]}}
