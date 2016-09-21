@@ -7,13 +7,7 @@ defmodule Excelion do
   #   `zip` : An optional parameter of the zip processing module is allowed (for testing purposes).
   @spec get_worksheet_names(String.t, module) :: {:ok, [String.t]} | {:error, String.t}
   def get_worksheet_names(path, zip \\ :zip) do
-    case XlsxParser.XlsxUtil.get_raw_content(path, "xl/workbook.xml", zip) do
-      {:error, reason} -> {:error, reason}
-      {:ok, content} ->
-        import SweetXml
-        {:ok, xpath(content, ~x"//workbook/sheets/sheet/@name"l)
-                |> Enum.map(&List.to_string(&1))}
-    end
+    XlsxParser.get_worksheet_names(path, zip)
   end
 
   # Overview

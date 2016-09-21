@@ -30,7 +30,7 @@ defmodule Excelion.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:ex_doc, ">= 0.0.0", only: :dev},
-     {:xlsx_parser, "~> 0.0.7"}]
+     {:xlsx_parser, "~> 0.0.8"}]
   end
 
   defp description do
