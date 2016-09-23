@@ -1,6 +1,9 @@
 # excelion
 Excel (xlsx) file reader for Elixir.
 
+- Docs : <https://hexdocs.pm/excelion/>
+- Hex package : <https://hex.pm/packages/excelion>
+
 The library is [excellent](https://hex.pm/packages/excellent) like interface wrapper of [xlsx\_parser](https://hex.pm/packages/xlsx_parser).
 
 The library provide simple 2 APIs.
