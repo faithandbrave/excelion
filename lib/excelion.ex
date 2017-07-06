@@ -14,7 +14,7 @@ defmodule Excelion do
 
   ## Example
   ```elixir
-  > Excelion.get_worksheet_names("test.xlsx")
+  > Excelion.get_worksheet_names("test.xlsx") |> elem(1)
   > ["sheet1", "sheet2", "sheet3"]
   ```
   """

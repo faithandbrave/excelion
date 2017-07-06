@@ -11,7 +11,7 @@ The library provide simple 2 APIs.
 `get_worksheet_names` function returns worksheet name list.
 
 ```elixir
-> Excelion.get_worksheet_names("test.xlsx")
+> Excelion.get_worksheet_names("test.xlsx") |> elem(1)
 > ["sheet1", "sheet2", "sheet3"]
 ```
 
